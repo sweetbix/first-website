@@ -43,13 +43,14 @@ a, .logo-text {
 .top {
     display:flex;
     flex-direction: column;
-    padding: 20px 200px;
+    padding: 20px 300px;
     background-color: #1f2937;
 }
 
 .header {
     text-align:center;
-    margin-bottom:30px;
+    margin-top:-20px;
+    margin-bottom:10px;
 }
 
 .banner {
@@ -61,8 +62,9 @@ a, .logo-text {
 
 .topleft, .topright {
     flex:1;
-    margin-top:0px;
+    margin-top:50px;
     margin-bottom:30px;
+    max-height:300px;
 }
 
 button {
@@ -71,6 +73,7 @@ button {
     border-radius: 8px;
     width:100px;
     height:35px;
+    border: none;
 }
 
 .text1{
@@ -85,8 +88,10 @@ button {
     display:flex;
     flex-direction:column;
     justify-content: center;
+    padding-right:25px;
 }
 
 .intro {
     max-height:375px;
+    gap:20px;
 }
