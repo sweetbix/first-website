@@ -109,6 +109,7 @@ p {
 .feature {
     display: flex;
     flex-direction: column;
+    padding-bottom:100px;
 }
 
 .items {
@@ -157,4 +158,48 @@ p {
 
 .f {
     margin-top:6px;
+}
+
+
+.information {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    font-size: 36px;
+    color:#1f2937;
+    padding: 100px 0px;
+    gap:10px;
+}
+
+.sign-up {
+    margin:65px 150px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 7px;
+}
+
+.find {
+    border:#F9FAF8 solid 2px;
+}
+
+.lefts, .rights {
+    display:flex;
+    justify-content:center;
+    margin: 40px 0px;
+}
+
+.lefts {
+    flex-direction:column;  
+}
+
+.footer {
+    background-color: #1f2937;
+    color:#F9FAF8;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
 }
